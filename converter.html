@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MU QUESTIONS | PAPERS | IMPORTANT QUESTIONS | PAPER SOLUTIONS</title>
+  <link rel="icon" type="image/ico" href="img/favicon.ico" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="https://kit.fontawesome.com/8bc2dc5f50.js" crossorigin="anonymous"></script>
+  <script src="js/jumbotron.js"></script>
+</head>
+
+<body>
+ 
+<div class="container-fluid">
+    <div class="row">
+        <div class="col head">
+        <p><b><a class="head-url" href="comingsoon.html">Advertise with Us</a> | <a href="comingsoon.html" class="head-url">Disclaimer</a> | <a href="http://mu.ac.in/portal/" target="_blank" class="head-url">Mumbai University</a></b></p>
+        </div>
+    </div>
+</div>
+    
+<nav class="navbar navbar-default navbar-expand-lg navbar-light">
+  <div class="navbar-header d-flex col">
+    <a class="navbar-brand" href="http://www.everyquestionpaper.com">EVERY<b style="color: black">?</b><b>PAPER</b></a>     
+    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle navbar-toggler ml-auto">
+      <span class="navbar-toggler-icon"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+  <!-- Collection of nav links, forms, and other content for toggling -->
+  <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+    <ul class="nav navbar-nav">
+      <li class="nav-item"><a href="http://www.everyquestionpaper.com" class="nav-link">Home</a></li>     
+      <li class="nav-item dropdown">
+        <a data-toggle="dropdown" class="nav-link dropdown-toggle" href="#">Universities<b class="caret"></b></a>
+        <ul class="dropdown-menu">          
+          <li><a href="#" class="dropdown-item">Mumbai University</a></li>
+          <li><a href="#" class="dropdown-item">Pune University</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a data-toggle="dropdown" class="nav-link dropdown-toggle" href="#">Govt. Exams<b class="caret"></b></a>
+        <ul class="dropdown-menu">          
+          <li><a href="#" class="dropdown-item">Coming Soon...</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a data-toggle="dropdown" class="nav-link dropdown-toggle" href="#">Tools<b class="caret"></b></a>
+        <ul class="dropdown-menu">          
+          <li><a href="/converter.html" class="dropdown-item">CGPA to % Converter</a></li>
+        </ul>
+      </li>
+    </ul>
+    <form class="navbar-form form-inline navbar-right ml-auto">
+      <div class="input-group search-box">
+        <input id="myInput" type="text" class="form-control">
+        <span class="input-group-btn">
+          <button type="button" class="btn btn-primary"><span>Search</span></button>
+        </span>
+      </div>
+    </form>   
+  </div>
+</nav>
+
+<!---------------REUSABLE HEAD---------------------------------------->
+
+<style>
+.textinputcgpa{
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.selectinputcgpa{
+  padding: 12px 45px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.converter-body-grey{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 60px;
+}
+
+.converter-body{
+  padding-top: 3%;
+  padding-bottom: 5%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+</style>
+<div class="container-fluid converter-body">
+    <div class="row">
+        <div class="col converter-body-grey">
+          <h3 style="text-align: center;">CGPA Converter</h3>
+          <br>
+          <select name="converter-choice" class="selectinputcgpa">
+          	<option>MU - Engineering</option>
+          </select>
+          <input type="text" class="textinputcgpa" id="cgpa" oninput="CgpaConverter(this.value)" placeholder="Enter Your CGPA Here..">
+          <input type="text" class="textinputcgpa" id="percent" value="" disabled>
+        </div>
+
+    </div>
+</div>
+
+
+<!-------------------------------------------------------------------scroll up button---------------------------------------->
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up" style="color: white;opacity: 1;"></i></button>
+<!-------------------------------------------------------------------scroll up button---------------------------------------->
+
+
+<!-----------------------------------------REUSABLE FOOTER---------------------------------------------------------------------------->
+
+
+
+
+<footer class="footer-distributed">
+
+  <div class="footer-right">
+
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+  </div>
+
+  <div class="footer-left">
+
+    <p class="footer-links">
+
+      <a href="#">Disclaimer</a>
+
+      <a href="#">Terms & Conditions</a>
+
+      <a href="#">Extra Courses</a>
+
+      <a href="#">Work with Us</a>
+
+      <a href="#">Faq</a>
+
+    </p>
+
+    <p>EVERYQUESTIONPAPER.COM &copy; 2019</p>
+    <p>Made with <a style="color: red">❤️</a> in India By <a href="#">Vikas Jha</a></p>
+  </div>
+
+</footer>
+
+<!-------------------------------------------------------------FOOTER END--------------------------------------------------------->
+
+
+<!------------------------------------Search Script----------------------------------------------------------------->
+<script>
+$(document).ready(function(){
+ $('#myInput').keyup(function(){
+  var text = $(this).val();
+  $('.mainrow').hide();
+
+  $('.mainrow:contains("'+text+'")').show();
+ 
+ });
+});
+
+</script>
+
+<!------------------------------------Search Script----------------------------------------------------------------->
+
+<!------------------------------------Scroll up button Script----------------------------------------------------------------->
+
+<script>
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
+<script>
+function CgpaConverter(valNum) {
+  if(valNum<11){
+  document.getElementById("percent").value = "Your Percentage is :" + Math.round((7.1*valNum)+11)+"%";}
+  else{document.getElementById("percent").value= "Invalid Input";}
+}
+</script>
+
+</body>
+</html>

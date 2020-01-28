@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+/*<--------------------------------------------top bar before navbar Css--------------------------------------------------------->*/
+.head{
+	height : 3.9vh;
+	background-color : lightsteelblue;
+	text-align-last : center;
+}
+.head-url{
+	color : black;
+	font-size : 13px;
+}
+
+
+/*<--------------------------------------------top bar before navbar Css--------------------------------------------------------->*/
+
+
+
+/*<--------------------------------------------navbar Css------------------------------------------------------------------------>*/
+    .form-inline {
+        display: inline-block;
+    }
+	.navbar-header.col {
+		padding: 0 !important;
+	}	
+	.navbar {
+		font-size: 14px;
+		background: #fff;
+		padding-left: 16px;
+		padding-right: 16px;
+		border-bottom: 1px solid #d6d6d6;
+		box-shadow: 0 0 4px rgba(0,0,0,.1);		
+	}
+	.navbar .navbar-brand {
+		color: #555;
+		padding-left: 0;
+		font-size: 20px;
+		padding-right: 50px;
+		font-family: 'Raleway', sans-serif;
+		text-transform: uppercase;
+	}
+	.navbar .navbar-brand b {
+		font-weight: bold;
+		color: #f04f01;
+	}
+	.navbar ul.nav li {
+		font-size: 96%;
+		font-weight: bold;		
+		text-transform: uppercase;
+	}
+	.navbar ul.nav li.active a, .navbar ul.nav li.active a:hover, .navbar ul.nav li.active a:focus {
+		color: #f04f01 !important;
+		background: transparent !important;
+	}
+	.search-box {
+        position: relative;
+    }
+	.search-box input.form-control, .search-box .btn {
+		font-size: 14px;
+		border-radius: 2px !important;
+	}
+	.search-box .input-group-btn {
+		padding-left: 4px;		
+	}
+	.search-box input.form-control:focus {
+		border-color: #f04f01;
+		box-shadow: 0 0 8px rgba(240,79,1,0.2);
+	}
+	.search-box .btn-primary, .search-box .btn-primary:active {
+		font-weight: bold;
+		background: #f04f01;
+		border-color: #f04f01;
+		text-transform: uppercase;
+		min-width: 90px;
+	}
+	.search-box .btn-primary:focus {
+		outline: none;
+		background: #eb4e01;
+		box-shadow: 0 0 8px rgba(240,79,1,0.2);
+	}
+	.search-box .btn span {
+		transform: scale(0.9);
+		display: inline-block;
+	}
+	.navbar .nav-item i {
+		font-size: 18px;
+	}
+	.navbar .dropdown-item i {
+		font-size: 16px;
+		min-width: 22px;
+	}
+	.navbar .nav-item.open > a {
+		background: none !important;
+	}
+	.navbar .dropdown-menu {
+		border-radius: 1px;
+		border-color: #e5e5e5;
+		box-shadow: 0 2px 8px rgba(0,0,0,.05);
+	}
+	.navbar .dropdown-menu li a {
+		color: #777;
+		padding: 8px 20px;
+		line-height: normal;
+		font-size: 14px;
+	}
+	.navbar .dropdown-menu li a:hover, .navbar .dropdown-menu li a:active {
+		color: #333;
+	}
+	.navbar .navbar-form {
+		border: none;
+	}
+	@media (min-width: 992px){
+		.form-inline .input-group .form-control {
+			width: 225px;			
+		}
+	}
+	@media (max-width: 992px){
+		.form-inline {
+			display: block;
+		}
+	}
+
+
+
+/*<--------------------------------------------navbar Css------------------------------------------------------------------------>*/
+
+
+
+/*<--------------------------------------------Scroll up button Css------------------------------------------------------------------>*/
+
+	#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #55cfc4; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  opacity: 0.9;
+}
+
+#myBtn:hover {
+  opacity: 1;
+}
+
+
+#roundedbox {
+  border-radius: 100px;
+  border: 2px solid #fcfcfc;
+  padding: 20px; 
+  width: auto;
+  height: 200px; 
+  font-family: 'Dancing Script', cursive;
+
+}
+
+/*<--------------------------------------------Scroll up button Css------------------------------------------------------------------>*/
+
+
+/*<--------------------------------------------footer Css---------------------------------------------------------------------->*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+* {
+  font-family: Roboto;
+}
+
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
+
+
+/*<--------------------------------------------footer Css---------------------------------------------------------------------->*/
+
+/*<----------------------------------------------most used tabs css------------------------------------------>*/
+.mostusedtabs{
+	text-align : center;
+}
+
+/*<----------------------------------------------most used tabs css------------------------------------------>*/
+
+.jumbotron{
+    background: no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-color: #ff3126;
+
+}
+
+.jumbotronfont{
+	color : white;
+	font-size: 27px;	
+
+}
+
+.jumbotronfont:hover{
+  	color : #fce803;
+  }
+
+@media screen and (min-width: 1024px) {
+  .jumbotronfont a {
+    color : white;
+	font-size: 50px;
+  }
+
+  .jumbotronfont:hover{
+  	color : #fce803;
+  }
+}}
+
+
+
+
+.card-body{
+
+	height: 200px;
+	color: #74b8e8;
+}
